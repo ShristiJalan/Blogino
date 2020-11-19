@@ -19,7 +19,7 @@ a{
     background: white;
     padding: 0 2rem;
     height: 0rem; /* to collapse navigation menu */
-    min-height: 10vh; /* to specify height to the nav */
+    min-height: 40vh; /* to specify height to the nav */
     overflow: hidden;
 }
 
