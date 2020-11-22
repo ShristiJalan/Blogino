@@ -1,0 +1,30 @@
+
+/* font-family: Roboto */
+@font-face{
+    font-family: Roboto;
+    src: url('../fonts/Roboto/Roboto-Medium.ttf');
+}
+
+ /* font-family: Castoro */
+ @font-face{
+    font-family: Castoro;
+    src: url('../fonts/Castoro/Castoro-Regular.ttf');
+}
+   
+ /* font-family: Merriweather */
+ @font-face{
+    font-family: Merriweather;
+    src: url('../fonts/Merriweather/Merriweather-Black.ttf');
+}
+
+ /* font-family: Nerko_One */
+ @font-face{
+    font-family: Nerko_One;
+    src: url('../fonts/Nerko_One/NerkoOne-Regular.ttf');
+}
+
+ /* font-family: PT_Sans */
+ @font-face{
+    font-family: PT_Sans;
+    src: url('../fonts/PT_Sans/PTSans-Regular.ttf');
+}
