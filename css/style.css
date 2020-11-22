@@ -1,12 +1,25 @@
+@import url('../css/fonts.css');
+
 html,body{
     margin: 0%;
     box-sizing: border-box;
     overflow-x: hidden;
 }
 
+:root{
+
+    /* theme font-family */
+    --Nerko_One: 'Nerko_One',cursive;
+    --PT_Sans: 'PT_Sans',cursive;
+    --Merriweather: 'Merriweather',cursive;
+    --Castoro: 'Castoro',cursive;
+    --Roboto: 'Roboto',cursive;
+}
+
 /* --------------------Global Classes-------------------*/
 a{
     text-decoration: none;
+    color: #3f4954;
 }
 
 .flex-row{
@@ -50,6 +63,7 @@ ul{
     font-size: 1.6rem;
     padding: 1rem 0;
     display: block;
+    font-family: var(--Nerko_One);
 }
 
 .nav .social{
