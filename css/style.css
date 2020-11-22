@@ -8,7 +8,17 @@ html,body{
 
 :root{
 
-    /* theme font-family */
+    /* Theme color */
+    --text-gray: #3f4954;
+    --text-light: #686666da;
+    --bg-color: #0f0f0f;
+    --white: #ffffff;
+    --midnight: #104f55;
+
+    /* gradient color */
+    --sky: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+
+    /* Theme font-family */
     --Nerko_One: 'Nerko_One',cursive;
     --PT_Sans: 'PT_Sans',cursive;
     --Merriweather: 'Merriweather',cursive;
@@ -19,7 +29,7 @@ html,body{
 /* --------------------Global Classes-------------------*/
 a{
     text-decoration: none;
-    color: #3f4954;
+    color: var(--text-gray);
 }
 
 .flex-row{
@@ -57,13 +67,16 @@ ul{
     padding: 1.6rem 1rem;
     font-size: 1.1rem;
     position: relative;
+    font-family: var(--PT_Sans);
+    font-size: 1.1rem;
 }
 
 .nav .nav-brand a{
     font-size: 1.6rem;
     padding: 1rem 0;
     display: block;
-    font-family: var(--Nerko_One);
+    font-family: var(--Merriweather);
+    font-size: 1.6rem;
 }
 
 .nav .social{
