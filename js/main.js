@@ -1,8 +1,10 @@
 $(document).ready(function(){
 
     $nav = $(".nav");
-    $toggleCollapse = $(".toggle-Collapse");
+    $toggleCollapse = $(".toggle-collapse");
 
     /** click event on toggle ():void */
-    $toggleCollapse.click()
+    $toggleCollapse.click(function(){
+        $nav.toggleClass("collapse");
+    })
 });
