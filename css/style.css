@@ -137,6 +137,7 @@ main .site-title h1,h3{
 
 main .site-title .btn{
     margin: 1.8rem;
+    background: var(--sky);
 }
 
 /* --------x-----------navbar---------x-----------*/
