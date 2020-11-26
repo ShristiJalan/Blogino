@@ -28,3 +28,9 @@
     font-family: PT_Sans;
     src: url('../fonts/PT_Sans/PTSans-Regular.ttf');
 }
+
+ /* font-family: Lexend_Exa */
+ @font-face{
+    font-family: Lexend_Exa;
+    src: url('../fonts/Lexend_Exa/LexendExa-Regular.ttf');
+}

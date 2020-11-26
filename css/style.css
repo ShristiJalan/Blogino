@@ -19,6 +19,7 @@ html,body{
 
     /* gradient color */
     --sky: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+    --pink: linear-gradient(to right, #ff758c 0%, #ff7eb3 100%);
 
     /* Theme font-family */
     --Nerko_One: 'Nerko_One',cursive;
@@ -26,6 +27,7 @@ html,body{
     --Merriweather: 'Merriweather',cursive;
     --Castoro: 'Castoro',cursive;
     --Roboto: 'Roboto',cursive;
+    --Lexend_Exa: 'Lexend_Exa',cursive;
 }
 
 /* --------------------Global Classes-------------------*/
@@ -42,6 +44,20 @@ a{
 
 ul{
     list-style-type: none;
+}
+
+h1{
+    font-family: var(--Roboto);
+    font-size: 2.5rem;
+}
+
+h2{
+    font-family: var(--PT_Sans);
+}
+
+h3{
+    font-family: var(--PT_Sans);
+    font-size: 1.3rem;
 }
 
 /* -------------x-------Global Classes-------x------------*/
@@ -137,7 +153,7 @@ main .site-title h1,h3{
 
 main .site-title .btn{
     margin: 1.8rem;
-    background: var(--sky);
+    background: var(--pink);
 }
 
 /* --------x-----------navbar---------x-----------*/
