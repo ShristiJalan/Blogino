@@ -60,6 +60,15 @@ h3{
     font-size: 1.3rem;
 }
 
+button.btn{
+    border: none;
+    border-radius: 2rem;
+    padding: 1rem 3rem;
+    font-size: 1.4rem;
+    font-family: var(--Nerko_One);
+    cursor: pointer;
+}
+
 /* -------------x-------Global Classes-------x------------*/
 
 /* --------------------navbar--------------------- */
@@ -141,20 +150,7 @@ h3{
     color: #a1c4cf;
 }
 
-main .site-title .site-background{
-    padding-top: 10rem;
-    text-align: center;
-    color: black;
-}
 
-main .site-title h1,h3{
-    margin: .3rem;
-}
-
-main .site-title .btn{
-    margin: 1.8rem;
-    background: var(--pink);
-}
 
 /* --------x-----------navbar---------x-----------*/
 
@@ -168,6 +164,21 @@ main .site-title{
     height: 110vh;
     display: flex;
     justify-content: center;
+}
+
+main .site-title .site-background{
+    padding-top: 10rem;
+    text-align: center;
+    color: black;
+}
+
+main .site-title h1,h3{
+    margin: .3rem;
+}
+
+main .site-title .btn{
+    margin: 1.8rem;
+    background: var(--pink);
 }
 
  /* --------x----------Site Title ------x------------ */
