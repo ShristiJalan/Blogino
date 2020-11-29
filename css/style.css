@@ -181,6 +181,11 @@ main .site-title .btn{
     background: var(--pink);
 }
 
+main .site-title .btn:hover{
+    background: transparent;
+    border: 1px solid black;
+}
+
  /* --------x----------Site Title ------x------------ */
 
 
