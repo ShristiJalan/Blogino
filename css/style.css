@@ -73,6 +73,10 @@ span{
     font-family: var(--Lexend_Exa);
 }
 
+.container{
+    margin: 0 5vw;
+}
+
 /* -------------x-------Global Classes-------x------------*/
 
 /* --------------------navbar--------------------- */
@@ -200,6 +204,7 @@ main .blog{
     background-position: right;
     height: 100vh;
     width: 100%; 
+    background-size: 68%;
 }
 
 main .blog .blog-post{
