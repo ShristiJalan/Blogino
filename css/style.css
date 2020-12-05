@@ -266,6 +266,11 @@ section .container .owl-nav{
     outline: none;
 }
 
+.blog-post .blog-content .img2{
+    width: 100%;
+    height: 31vh;
+}
+
 /* ---------x---------Blog Carousel -----x------------ */
 
 /* --------------------Site Content--------------------*/
