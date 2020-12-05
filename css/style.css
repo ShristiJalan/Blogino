@@ -383,7 +383,7 @@ main .site-content .post-content > .post-image .img1{
     padding-top: 8rem; 
 }
 
-.side-content .sidebar .popular-post .post-info{
+.site-content .sidebar .popular-post .post-info{
     padding: 0.4rem 0.1rem !important;
     bottom: 0rem !important;
     left: 1.5rem !important;
@@ -393,6 +393,30 @@ main .site-content .post-content > .post-image .img1{
 
 .side-content .sidebar .popular-post .post-title a{
     font-size: 1rem;
+}
+
+.site-content .sidebar .newsletter{
+    padding-top: 3rem;
+}
+
+.site-content .sidebar .newsletter .form-element{
+    padding: 0.5rem 2rem; 
+}
+
+.site-content .sidebar .newsletter .input-element{
+    width: 80%;
+    height: 1.9rem;
+    padding: 0.3rem 0.5rem;
+    font-family: var(--Lexend_Exa);
+    font-size: 1rem;
+}
+
+.site-content .sidebar .newsletter .form-btn{
+    border-radius: 0;
+    padding: 0.8rem 30%;
+    margin: 1rem 0;
+    background: var(--sky);
+
 }
 /* ---------x-------------Sidebar-------x--------------*/
 
