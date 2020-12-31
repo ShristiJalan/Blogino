@@ -10,6 +10,6 @@ HTML, CSS, JavaScript
 
 ## Tasks left to implement
 
-Category wise make blogs available and whoever reads blogs using blogino and sign in to the account, we should have the records of them
+Category wise make blogs available and whoever reads blogs using blogino and sign in to the account, we should have the records of them, blogs should be the recent ones
 
 
