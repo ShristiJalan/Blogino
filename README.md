@@ -4,9 +4,11 @@
 
 Blogino is a website where one can find the blogs with high ratings and reviews and that too it will cover most of the topics.
 
-## Technologies
+## Languages
 
-HTML, CSS, JavaScript
+- HTML
+- CSS
+- Javascript
 
 ## Tasks left to implement
 
